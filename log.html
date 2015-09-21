@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Learn Ng</title>
+
+        <link href="css/default.min.css" rel="stylesheet">
+        <link href="css/font-ico.min.css" rel="stylesheet">
+        <link href="css/font-ion.min.css" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet">
+        <link href="css/red.css" rel="stylesheet">
+        <link href="css/log.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="body" id="body">            
+            <div id="brand-bar"  class="brand-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="#" id="brand-logo">
+                                <img src="img/brand.png">
+                                <span class="brand-slogan hidden-xs">
+                                    our slogan goes in here ...
+                                </span>
+                            </a>
+                        </div>
+                    </div>                    
+                </div>                
+            </div>
+            <div id="main-banner" class="" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-offset-6 col-sm-6 col-md-offset-8 col-md-4">
+                            <div class="outline theme-bg-wht">
+                                <p class="pb10" style="border-bottom: 1px solid #eee">
+                                    Sign in with Account
+                                </p>
+                                <form>
+                                    <div class="form-group">
+                                        <label>Username</label>
+                                        <input class="form-control" type="email" placeholder="username">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input class="form-control" type="password" placeholder="username">
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="font-weight: 300">
+                                            <input type="checkbox" class="icheckbox" name="iCheck" checked> &nbsp;
+                                            Remember me on this device
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-d btn-block efault btn-theme" type="submit">Sign in</button>
+                                    </div>
+                                </form>
+                                <a href="#">forgot password </a>
+                                <a href="#" class="pull-right">sign up now for free </a>
+                                <p class="mt20 pt10 pb10" style="border-top: 1px dashed #eee; clear: both">
+                                    <a href="#">sign with <i class="fa fa-facebook-square"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="log-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <a href="">
+                                Privacy policy
+                            </a>
+                            <span> - </span>
+                            <a href="">
+                                Safety & Security center
+                            </a>
+                            <span> - </span>
+                            <a href="">
+                                Privacy policy
+                            </a>
+                            <span> - </span>
+                            <a href="">
+                                Contact us
+                            </a>
+                            <span> - </span>
+                            <a href="">
+                                Submit a complaint
+                            </a>
+                            <span> - </span>
+                            <a href="">
+                                Report a bug
+                            </a><br>
+                            Copyright Notice © 1999-2015 learn.dev. All rights reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.1.11.3.min.js"></script>
+        <script src="js/default.min.js"></script>
+        <script src="js/icheck.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('input.icheckbox').iCheck({
+                    checkboxClass: 'icheckbox_flat-red'
+                });
+            });
+        </script>
+    </body>
+</html>

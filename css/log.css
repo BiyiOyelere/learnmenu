@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 8, 2015, 9:10:01 PM
+    Author     : Oluwabiyi
+*/
+#main-banner {
+    background-image: url(../img/banner.png);
+    min-height: 450px;
+    padding-top:30px;
+    color: #333
+}
+
+#main-banner .form-control{
+    border-radius: 0
+}
+
+#log-footer{
+    border-top: 2px solid #999;
+    margin-top: 20px;
+    clear: both;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font: 400 12px verdana;
+    color: #999;
+    line-height: 20px;
+    background-color: #f8f8f8;
+}
+
